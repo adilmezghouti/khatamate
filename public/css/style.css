@@ -1,0 +1,120 @@
+/*.btn-edit-khatmah {
+  padding: 0 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#khatmah-table tr .edit-khatmah {
+  display:none;
+  width:31px !important;
+  height:30px;
+  background:url("/img/edit_sprite.png") -41px 0 no-repeat;
+}
+
+#khatmah-table tr:hover .edit-khatmah,#khatmah-table tr :active .edit-khatmah,#khatmah-table tr :focus .edit-khatmah{
+  display:block;
+}*/
+
+.row .container h3 {
+  color: #05ae0e;
+}
+
+
+.skin-prayer {
+  background-image: url('img/bg1920x1080.jpg');
+  background-attachment: fixed;
+  min-height : 100%;
+  min-width : 100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+table {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+#users-list {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+table tr td, table tr th {
+  background: rgba(255, 255, 255, 0.50);
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+table > tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}
+
+#khatmah-table>tbody>tr, #friends-table>tbody>tr {
+  cursor:pointer;
+}
+
+.scrolling-content {
+  min-height: 1px;
+  max-height: 297px;
+  overflow: hidden;
+}
+
+.scrolling-content:hover {
+  overflow: auto;
+}
+
+.breadcrumb {
+  margin-bottom:0;
+  background: rgba(255, 255, 255, 0.50);
+}
+
+.congratulation-message {
+  background: rgba(255, 255, 255, 0);
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0);
+}
+
+#new-khatmah {
+  display: block;
+}
+#invitation {
+  display: block;
+}
+#invitation .row {
+  vertical-align: bottom;
+  vertical-align: bottom;
+  float: none;
+}
+.panel-default>.panel-heading.confirmed {
+  color: #33CC33;
+  font-size: 19px;
+}
+.panel-default>.panel-heading.non-confirmed {
+  color: red;
+  font-size: 19px;
+}
+.panel-default>.panel-heading.khatmah {
+  color: #33CC33;
+  font-size: 19px;
+  text-transform: capitalize;
+  text-center
+}
+.row-selected {
+  background-color: #ADEBAD;
+}
+
+.profile-pic {
+  overflow: hidden;
+  margin: 9px 0 4px;
+  border-radius: 100px !important;
+  float: left;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.logo {
+  width: 182px;
+  margin: 10px 0 0 0;
+}
